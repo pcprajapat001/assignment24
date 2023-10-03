@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Grid, Card, CardContent, Typography } from "@mui/material";
 
-export function EmpList() {
+export const EmpList=()=> {
   const [data, setData] = useState([]);
 
   const getData = async () => {
